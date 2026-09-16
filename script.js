@@ -468,8 +468,7 @@
     <div class="page-head">
       <span class="eyebrow">Contact</span>
       <h1>Let's talk about your piece</h1>
-      <p class="section-sub">Tell us what you need — a single chair, a full hotel fit-out, or a carved
-         door for a heritage home. We reply within one working day.</p>
+      <p class="section-sub">Tell us what you need.</p>
     </div>
 
     <section class="section" style="padding-top:44px">
@@ -477,18 +476,20 @@
         <div>
           <div class="info-card">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
-            <div><h5>Workshop &amp; Showroom</h5>
-              <p>Bharatpur-10, Chitwan<br>Bagmati Province, Nepal</p></div>
+            <div><h5>Factory &amp; Address</h5>
+              <p>Bharatpur-5, Chitwan<br>Sun – Fri, 8:00 – 18:00</p></div>
           </div>
           <div class="info-card">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5c0-1 1-2 2-2h2l2 5-2 1.5a12 12 0 0 0 5.5 5.5L15 13l5 2v2c0 1-1 2-2 2A15 15 0 0 1 4 5z"/></svg></span>
             <div><h5>Phone / Viber</h5>
-              <p>+977 98-0000-0000<br>Sun – Fri, 8:00 – 18:00</p></div>
+              <p>+9779845048276<br>
+              +9779855060624 
+              </p></div>
           </div>
           <div class="info-card">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>
             <div><h5>Email</h5>
-              <p>hello@chitwanwoodcraft.com.np<br>trade@chitwanwoodcraft.com.np</p></div>
+              <p>info@chitwanwoodcraft.com.np<br>sales@chitwanwoodcraft.com.np</p></div>
           </div>
           <div class="info-card">
             <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
