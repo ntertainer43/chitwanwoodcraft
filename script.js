@@ -42,6 +42,10 @@
       ${path}</svg>`;
   }
 
+  function image(name){
+    return `<img src=${name}>`;
+  }
+
   /* =========================================================
      2. CATALOGUE DATA
      ========================================================= */
@@ -51,7 +55,7 @@
       blurb:'Solid-wood seating and tables built for daily life.',
       note:'Mortise-and-tenon joinery keeps every frame rigid without metal fasteners.',
       items:[
-        {id:'f1',name:'Sal Wood Dining Table',wood:'Sal',finish:'Natural oil',dims:'180 × 90 × 76 cm',price:68000,icon:'table',tag:'Bestseller'},
+        {id:'f1',name:'Sal Wood Dining Table',wood:'Sal',finish:'Natural oil',dims:'180 × 90 × 76 cm',price:68000,icon:'penholder.jpg',tag:'Bestseller'},
         {id:'f2',name:'Teak Lounge Chair',wood:'Teak',finish:'Matte lacquer',dims:'70 × 75 × 80 cm',price:24500,icon:'chair'},
         {id:'f3',name:'Handcarved Sofa Set (3+2)',wood:'Sal',finish:'Walnut stain',dims:'210 cm / 160 cm',price:145000,icon:'sofa',tag:'Signature'},
         {id:'f4',name:'Chitwan Coffee Table',wood:'Sisau',finish:'Natural oil',dims:'120 × 60 × 45 cm',price:32000,icon:'table'},
@@ -139,7 +143,7 @@
     return `
     <article class="p-card reveal" data-id="${esc(p.id)}" tabindex="0" role="button" aria-label="${esc(p.name)}">
       <div class="p-thumb wood-light">
-        ${svgIcon(p.icon)}
+        ${image(p.icon)}
         ${p.tag ? `<span class="p-tag">${esc(p.tag)}</span>` : ''}
       </div>
       <div class="p-body">
@@ -159,13 +163,13 @@
     modal.innerHTML = `
       <div class="modal wood">
         <button class="modal-close" aria-label="Close">✕</button>
-        <div class="modal-thumb">${svgIcon(p.icon)}</div>
+        
+        <div class="modal-thumb">${image(p.icon)}</div>
         <div class="modal-body">
           <span class="eyebrow">${esc(p.catName)}</span>
           <h3>${esc(p.name)}</h3>
           <p class="modal-desc">
-            Made to order in our Bharatpur workshop from kiln-seasoned ${esc(p.wood.toLowerCase())},
-            finished with ${esc(p.finish.toLowerCase())}. ${esc(p.catNote)}
+            Description of the product
           </p>
           <dl class="specs">
             <div><dt>Wood</dt><dd>${esc(p.wood)}</dd></div>
