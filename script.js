@@ -313,7 +313,7 @@
       </div>
     </section>
 
-    
+    <!--
     <section class="section">
       <div class="section-head reveal">
         <span class="eyebrow">Clients</span>
@@ -337,14 +337,15 @@
         </div>
       </div>
     </section>
+    -->
 
     <section class="cta-band wood">
       <div class="cta-inner">
         <div>
-          <h2>Have a piece in mind?</h2>
+          <h2>Want a custom designed product?</h2>
           <p>Send us a sketch, a photo or just a rough size. We'll quote it, build it, and deliver it.</p>
         </div>
-        <a class="btn btn-primary" href="#/contact">Start a Commission</a>
+        <a class="btn btn-primary" href="#/contact">Design with Us</a>
       </div>
     </section>`;
   }
