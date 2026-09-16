@@ -282,8 +282,7 @@
       <div class="section-head reveal">
         <span class="eyebrow">Products</span>
         <h2 class="section-title">Signature pieces from the workshop</h2>
-        <p class="section-sub">A selection of the work we're proudest of — commissions for homes,
-           hotels and heritage restorations across Nepal.</p>
+        <p class="section-sub">    </p>
       </div>
       <div class="grid">${featured.map(productCard).join('')}</div>
     </section>
@@ -308,12 +307,13 @@
         </div>
         <div class="chips reveal">
           <span class="chip">Sal</span><span class="chip">Teak</span><span class="chip">Sisau</span>
-          <span class="chip">Chakati</span><span class="chip">Rosewood</span><span class="chip">Gmelina</span>
-          <span class="chip">Pine</span><span class="chip">Khair</span>
+          <span class="chip">Katar</span><span class="chip">Mango</span><span class="chip">Sajiwan</span>
+          <span class="chip">Bakaino</span><span class="chip">Khair</span>
         </div>
       </div>
     </section>
 
+    
     <section class="section">
       <div class="section-head reveal">
         <span class="eyebrow">Clients</span>
