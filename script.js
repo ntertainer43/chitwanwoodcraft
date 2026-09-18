@@ -43,7 +43,8 @@
   }
 
   function image(name){
-    return `<img src=${name}>`;
+    const pathname = 'img/' + name;
+    return `<img src=${pathname}>`;
   }
 
   /* =========================================================
@@ -55,7 +56,7 @@
       blurb:'Solid-wood seating and tables built for daily life.',
       note:'Mortise-and-tenon joinery keeps every frame rigid without metal fasteners.',
       items:[
-        {id:'f1',name:'Sal Wood Dining Table',wood:'Sal',finish:'Natural oil',dims:'180 × 90 × 76 cm',price:68000,icon:'penholder.jpg',tag:'Bestseller'},
+        {id:'f1',name:'Pen Holder',wood:'Sal',finish:'Natural oil',dims:'180 × 90 × 76 cm',price:68000,icon:'penholder.jpg',tag:'Bestseller'},
         {id:'f2',name:'Teak Lounge Chair',wood:'Teak',finish:'Matte lacquer',dims:'70 × 75 × 80 cm',price:24500,icon:'chair'},
         {id:'f3',name:'Handcarved Sofa Set (3+2)',wood:'Sal',finish:'Walnut stain',dims:'210 cm / 160 cm',price:145000,icon:'sofa',tag:'Signature'},
         {id:'f4',name:'Chitwan Coffee Table',wood:'Sisau',finish:'Natural oil',dims:'120 × 60 × 45 cm',price:32000,icon:'table'},
